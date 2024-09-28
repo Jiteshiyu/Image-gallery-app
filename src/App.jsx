@@ -3,9 +3,9 @@ import Gallery from "./components/Gallery.jsx";
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="app"> {/* Main app */}
       <h1 className="app-heading">Image Gallery</h1>
-      <Gallery />
+      <Gallery /> {/* Rendering the Gallery component */}
     </div>
   );
 }
