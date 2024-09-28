@@ -1,4 +1,4 @@
-# Image Gallery App
+# Pixarium
 
 This is an Image Gallery App built with React, allowing users to upload images via URL and display them in a responsive grid layout. The app demonstrates a component-based structure and state management using React's `useState` hook.
 
@@ -46,8 +46,8 @@ Ensure that Node.js and npm are installed on your machine. If not, you can downl
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Jiteshiyu/Image-gallery-app.git
-   cd Image-gallery-app
+   git clone https://github.com/Jiteshiyu/Pixarium.git
+   cd Pixarium
    ```
 
 2. Install the dependencies:
