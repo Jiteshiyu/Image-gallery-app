@@ -1,60 +1,68 @@
 #root {
-  margin: 0 auto;
-  max-width: 1280px;
+  margin: 0 auto; 
+  max-width: 1280px; 
   text-align: center;
 }
 
+/* Main app container */
 .app {
-  width: 80vw;
-  padding: 1rem 2rem;
+  width: 80vw; 
+  padding: 1rem 2rem; 
 }
 
+/* App heading style */
 .app-heading {
-  margin: 0;
-  font-size: 2.2rem;
-  font-style: italic;
-  font-weight: bold;
+  margin: 0; 
+  font-size: 2.2rem; 
+  font-style: italic; 
+  font-weight: bold; 
 }
 
+/* Image grid layout */
 .img-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
-  justify-content: center;
+  display: grid; 
+  gap: 2rem; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px)); 
+  justify-content: center; 
 }
 
+/* Individual image item style */
 .img-item {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%; 
+  height: 100%; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
 
+/* Form styling for uploads */
 .upload-form {
-  margin: 1.2rem 0;
+  margin: 1.2rem 0; 
 }
 
+/* Search box style */
 .searchbox {
-  height: 2rem;
-  width: 20rem;
-  margin-right: 1rem;
-  border: 2px solid #333;
-  outline: none;
+  height: 2rem; 
+  width: 20rem; 
+  margin-right: 1rem; 
+  border: 2px solid #333; 
+  outline: none; 
 }
 
+/* Submit button styling */
 .submit-btn {
-  color: #fff;
-  background-color: #007bff;
-  padding: 0.6rem 1.2rem;
-  margin: 1rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  transition: all 0.05s linear;
+  color: #fff; 
+  background-color: #007bff; 
+  padding: 0.6rem 1.2rem; 
+  margin: 1rem; 
+  font-size: 1rem; 
+  border: none; 
+  border-radius: 0.4rem; 
+  cursor: pointer; 
+  transition: all 0.05s linear; 
 }
 
+/* Hover effect for submit button */
 .submit-btn:hover {
-  background-color: #0056b3;
-  transform: scale(1.01);
+  background-color: #0056b3; 
+  transform: scale(1.01); 
 }
