@@ -1,6 +1,12 @@
 # Pixarium
 
-This is an Image Gallery App built with React, allowing users to upload images via URL and display them in a responsive grid layout. The app demonstrates a component-based structure and state management using React's `useState` hook.
+An Image Gallery App built with React.
+
+![React](https://img.shields.io/badge/React-007ACC?style=for-the-badge&logo=react&logoColor=white)
+![JSX](https://img.shields.io/badge/JSX-React%20Component-informational?style=for-the-badge&logo=react)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ## Table of Contents
 
@@ -8,7 +14,6 @@ This is an Image Gallery App built with React, allowing users to upload images v
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 - [Available Scripts](#available-scripts)
 - [How It Works](#how-it-works)
 - [Future Improvements](#future-improvements)
@@ -17,7 +22,7 @@ This is an Image Gallery App built with React, allowing users to upload images v
 
 ## Demo
 
-You can view a live demo of the project [here](#).
+You can view a live demo of the project [here](https://pixarium.netlify.app/).
 
 ## Features
 
@@ -39,7 +44,7 @@ Follow these steps to run the project locally:
 
 ### Prerequisites
 
-Ensure that Node.js and npm are installed on your machine. If not, you can download them from [here](https://nodejs.org/).
+Ensure that **Node.js** and **npm** are installed on your machine. If not, you can download them from [here](https://nodejs.org/).
 
 ### Installation
 
@@ -64,37 +69,6 @@ Ensure that Node.js and npm are installed on your machine. If not, you can downl
 
 4. Open your browser and navigate to `http://localhost:3000` to see the app in action.
 
-## Project Structure
-
-```bash
-├── public/
-│   ├── icon.png
-│   ├── bear.jpg
-│   ├── bird.jpg
-│   ├── mountain.jpg
-├── src/
-│   ├── components/
-│   │   ├── Gallery.jsx
-│   │   ├── ImageGrid.jsx
-│   │   ├── ImageItem.jsx
-│   │   └── Uploader.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── App.css
-│   ├── index.css
-├── index.html
-├── package.json
-└── vite.config.js
-└── README.md
-```
-
-- `App.jsx`: The main application component that renders the `Gallery` component.
-- `Gallery.jsx`: Manages the list of images and image upload functionality.
-- `Uploader.jsx`: Handles image URL input and adding images to the gallery.
-- `ImageGrid.jsx`: Displays the images in a responsive grid layout.
-- `ImageItem.jsx`: Renders each image with styling.
-- `index.css`: Contains the global styles for the app.
-
 ## Available Scripts
 
 - `npm run dev`: Start the development server.
@@ -103,22 +77,25 @@ Ensure that Node.js and npm are installed on your machine. If not, you can downl
 
 ## How It Works
 
-The app is built with React and uses the `useState` hook for managing the state of the image list. Here’s a breakdown of its functionality:
+The app is built with React and uses the `useState` hook for managing the state of the image list.
 
-1. Image Upload: Users can enter the URL of an image and upload it by clicking the "Upload Image" button. The image is then added to the gallery.
-2. Image Display: Images are displayed in a grid layout using CSS Grid, with responsiveness for different screen sizes.
-3. Real-Time Updates: Once an image is added, it instantly appears in the gallery without requiring a page refresh.
+Here’s a breakdown of its functionality:
+
+1. Image Display: Images are displayed in a grid layout using CSS Grid, with responsiveness for different screen sizes.
+2. Real-Time Updates: Once an image is added, it instantly appears in the gallery without requiring a page refresh.
+3. Image Upload: Users can enter the URL of an image and upload it by clicking the "Upload Image" button.
+
 
 ## Future Improvements
 
 - Drag-and-Drop Upload: Allow users to upload images by dragging them into the app.
-- Image Deletion: Add functionality to remove images from the gallery.
 - Image Upload via File: Allow users to upload images from their local file system instead of just via URL.
+- Image Deletion: Add functionality to remove images from the gallery.
 
 ## Challenges and Learnings
 
-- State Management: Using React’s `useState` to dynamically update the list of images and properly re-render the components.
 - CSS Grid: Learning to implement a responsive grid system that adjusts to various screen sizes.
+- State Management: Using React’s `useState` to dynamically update the list of images and properly re-render the components.
 - Componentization: Structuring the app into reusable components like `Uploader`, `ImageGrid`, and `ImageItem` to maintain clean and maintainable code.
 
 ## Contributing
@@ -131,4 +108,10 @@ Contributions are welcome! If you have any ideas for new features or improvement
 4. Push to the branch (`git push origin feature-branch`)
 5. Open a pull request
 
----
+## Support
+Give a 🌟 to this repo if you liked it .
+
+Connect with me
+
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322/) [![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu/)
+
