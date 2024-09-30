@@ -18,7 +18,6 @@ An Image Gallery App built with React.
 - [How It Works](#how-it-works)
 - [Future Improvements](#future-improvements)
 - [Challenges and Learnings](#challenges-and-learnings)
-- [Contributing](#contributing)
 
 ## Demo
 
@@ -81,9 +80,9 @@ The app is built with React and uses the `useState` hook for managing the state 
 
 Here’s a breakdown of its functionality:
 
-1. Image Display: Images are displayed in a grid layout using CSS Grid, with responsiveness for different screen sizes.
-2. Real-Time Updates: Once an image is added, it instantly appears in the gallery without requiring a page refresh.
-3. Image Upload: Users can enter the URL of an image and upload it by clicking the "Upload Image" button.
+1. **Image Display:** Images are displayed in a grid layout using CSS Grid, with responsiveness for different screen sizes.
+2. **Real-Time Updates:** Once an image is added, it instantly appears in the gallery without requiring a page refresh.
+3. **Image Upload:** Users can enter the URL of an image and upload it by clicking the "Upload Image" button.
 
 
 ## Future Improvements
@@ -94,19 +93,9 @@ Here’s a breakdown of its functionality:
 
 ## Challenges and Learnings
 
-- CSS Grid: Learning to implement a responsive grid system that adjusts to various screen sizes.
-- State Management: Using React’s `useState` to dynamically update the list of images and properly re-render the components.
-- Componentization: Structuring the app into reusable components like `Uploader`, `ImageGrid`, and `ImageItem` to maintain clean and maintainable code.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas for new features or improvements, feel free to submit a pull request or open an issue.
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a pull request
+- **CSS Grid:** Learning to implement a responsive grid system that adjusts to various screen sizes.
+- **State Management:** Using React’s `useState` to dynamically update the list of images and properly re-render the components.
+- **Componentization:** Structuring the app into reusable components like `Uploader`, `ImageGrid`, and `ImageItem` to maintain clean and maintainable code.
 
 ## Support
 Give a 🌟 to this repo if you liked it .
