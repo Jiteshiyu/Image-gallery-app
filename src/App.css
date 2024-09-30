@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(#d1a4e9, #a0c4ff);
+  background: linear-gradient(#e5c6ed, #b3d9ff);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,8 @@ body {
 /* Main app container */
 .app {
   width: 80vw; 
-  padding: 1rem 2rem; 
+  padding: 1rem 2rem;
+  text-align: center;
 }
 
 /* App heading style */
