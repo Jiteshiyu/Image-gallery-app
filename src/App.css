@@ -1,8 +1,12 @@
-#root {
-  margin: 0 auto; 
-  max-width: 1280px; 
-  text-align: center;
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(#d1a4e9, #a0c4ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 /* Main app container */
 .app {
