@@ -1,3 +1,4 @@
+/* Body Styles */
 body {
   margin: 0;
   height: 100vh;
@@ -7,15 +8,14 @@ body {
   align-items: center;
 }
 
-
-/* Main app container */
+/* Main App Styles */
 .app {
   width: 80vw; 
   padding: 1rem 2rem;
   text-align: center;
 }
 
-/* App heading style */
+/* App Heading Styles */
 .app-heading {
   margin: 0; 
   font-size: 2.2rem; 
@@ -23,7 +23,7 @@ body {
   font-weight: bold; 
 }
 
-/* Image grid layout */
+/* Image Grid Layout */
 .img-grid {
   display: grid; 
   gap: 2rem; 
@@ -31,7 +31,7 @@ body {
   justify-content: center; 
 }
 
-/* Individual image item style */
+/* Image Item Styles */
 .img-item {
   width: 100%; 
   height: 100%; 
@@ -39,12 +39,12 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
 }
 
-/* Form styling for uploads */
+/* Upload Form Styles */
 .upload-form {
   margin: 1.2rem 0; 
 }
 
-/* Search box style */
+/* Search Box Styles */
 .searchbox {
   height: 2rem; 
   width: 20rem; 
@@ -53,7 +53,7 @@ body {
   outline: none; 
 }
 
-/* Submit button styling */
+/* Submit Btn Styles */
 .submit-btn {
   color: #fff; 
   background-color: #007bff; 
@@ -66,7 +66,7 @@ body {
   transition: all 0.05s linear; 
 }
 
-/* Hover effect for submit button */
+/* Submit Btn Hover Effects */
 .submit-btn:hover {
   background-color: #0056b3; 
   transform: scale(1.01); 
