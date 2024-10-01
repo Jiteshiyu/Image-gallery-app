@@ -17,8 +17,10 @@ export default function Gallery() {
 
   return (
     <div>
-      <Uploader addImage={addImage} /> {/* Component for uploading images */}
-      <ImageGrid images={images} /> {/* Component to display the grid of images */}
+      {/* Component for uploading images */}
+      <Uploader addImage={addImage} />
+      {/* Component to display the grid of images */}
+      <ImageGrid images={images} />
     </div>
   );
 }
