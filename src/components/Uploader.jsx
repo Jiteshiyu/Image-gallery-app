@@ -13,15 +13,18 @@ export default function Uploader({ addImage }) {
   };
 
   return (
-    <form onSubmit={updateImages} className="upload-form"> {/* Form for uploading images */}
+    // Form for uploading images
+    <form onSubmit={updateImages} className="upload-form">
       <input
         type="text"
         placeholder="Enter image URL"
         value={imageUrl}
-        onChange={(event) => setImageUrl(event.target.value)} // Update state on input change
+        onChange={(event) => setImageUrl(event.target.value)}
+        // Update state on input change
         className="searchbox"
       />
-      <button className="submit-btn">Upload Image</button> {/* Button to submit the form */}
+      {/* Button to submit the form */}
+      <button className="submit-btn">Upload Image</button>
     </form>
   );
 }
