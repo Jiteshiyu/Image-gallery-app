@@ -71,3 +71,26 @@ body {
   background-color: #0056b3; 
   transform: scale(1.01); 
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+    width: 90vw;
+  }
+
+  .app-heading {
+    font-size: 1.8rem;
+  }
+
+  .searchbox {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .submit-btn {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
