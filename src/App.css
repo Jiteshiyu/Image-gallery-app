@@ -47,7 +47,7 @@ body {
 
 /* Search Box Styles */
 .searchbox {
-  height: 2rem; 
+  height: 2.15rem; 
   width: 20rem; 
   margin-right: 1rem; 
   border: 2px solid #333; 
@@ -58,7 +58,7 @@ body {
 .submit-btn {
   color: #fff; 
   background-color: #007bff; 
-  padding: 0.7rem 1.2rem; 
+  padding: 0.75rem 1.2rem; 
   margin: 1rem; 
   font-size: 1rem; 
   border: none; 
