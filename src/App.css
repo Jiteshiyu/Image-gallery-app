@@ -42,8 +42,8 @@ body {
 
 /* Upload Form Styles */
 .upload-form {
-  max-width: 32rem;
-  margin: 1.2rem 0;
+  max-width: 30rem;
+  margin: 1.2rem auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
