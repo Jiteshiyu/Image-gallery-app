@@ -29,6 +29,7 @@ body {
   gap: 2rem; 
   grid-template-columns: repeat(auto-fit, minmax(250px, 300px)); 
   justify-content: center; 
+  margin-bottom: 1.3rem;
 }
 
 /* Image Item Styles */
@@ -90,7 +91,6 @@ body {
   }
 
   .submit-btn {
-    width: 100%;
     margin: 0.5rem 0;
   }
 }
