@@ -42,10 +42,11 @@ body {
 
 /* Upload Form Styles */
 .upload-form {
-  margin: 1.2rem 0;
+  max-width: 30rem
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Search Box Styles */
