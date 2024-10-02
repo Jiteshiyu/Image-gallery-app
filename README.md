@@ -21,7 +21,7 @@ An Image Gallery App built with React.
 
 ## Demo
 
-You can view a live demo of the project [here](https://pixarium.netlify.app/).
+You can view a live demo of the project [Pixarium](https://pixarium.netlify.app/).
 
 ## Features
 
