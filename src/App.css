@@ -28,6 +28,7 @@ body {
   gap: 2rem; 
   grid-template-columns: repeat(auto-fit, minmax(250px, 300px)); 
   justify-content: center; 
+  margin-bottom: 1.3rem;
 }
 
 /* Image Item Styles */
@@ -52,6 +53,13 @@ body {
   outline: none; 
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .searchbox {
+    margin-right: 0; 
+  }
+
+
 /* Submit Btn Styles */
 .submit-btn {
   color: #fff; 
@@ -70,3 +78,4 @@ body {
   background-color: #0056b3; 
   transform: scale(1.01); 
 }
+
