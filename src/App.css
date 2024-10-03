@@ -54,7 +54,6 @@ body {
 .searchbox {
   height: 2.2rem; 
   width: 20rem; 
-  border: 2px solid #ddd; 
   outline: none; 
 }
 
@@ -66,7 +65,7 @@ body {
   margin: 1rem; 
   font-size: 1rem; 
   border: none; 
-  border-radius: 0.5rem; 
+  border-radius: 0.75rem; 
   cursor: pointer; 
   transition: all 0.05s linear; 
 }
